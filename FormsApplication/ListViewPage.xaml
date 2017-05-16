@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:local="clr-namespace:FormsApplication" 
+	x:Class="FormsApplication.ListViewPage"
+	Padding="20">
+	<StackLayout Spacing="10">
+		<Label Text="Xmarin Froms Test" VerticalOptions="Center" HorizontalOptions="Start" />
+		<Label Text="ListViewTest" VerticalOptions="Center" HorizontalOptions="Center" />
+		<ListView x:Name="listView" ItemsSource="{Binding}" />
+	</StackLayout>
+</ContentPage>

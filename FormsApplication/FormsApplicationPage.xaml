@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:local="clr-namespace:FormsApplication" 
+	x:Class="FormsApplication.FormsApplicationPage"
+	Padding="20">
+	<StackLayout Spacing="10">
+		<Label Text="Xmarin Froms Test" VerticalOptions="Center" HorizontalOptions="Start" />
+		<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+		<Label Text="TEST" x:Name="deleteLabel" VerticalOptions="Center" HorizontalOptions="Start" />
+		<Entry x:Name="inputText" Keyboard="Text" />
+		<Button Text="送信" Clicked="OnSendButtonClicked"/>
+		<Button Text="初期化" Clicked="OnDeleteButtonClicked"/>
+	</StackLayout>
+</ContentPage>
